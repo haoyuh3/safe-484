@@ -12,10 +12,11 @@ $ source devel/setup.bash
 $ roslaunch racecar teleop.launch
 
 $ source devel/setup.bash
-$ roslaunch racecar sensors.launch 
+$ roslaunch racecar sensors.launch /  
+$ or roslaunch realsense2_camera rs_camera.launch
 
 $ source devel/setup.bash
-$ rosrun vicon_control vicon_tracker_pp.py
+$ roslaunch racecar lidar.launch
 
 # ----------------------------------------------
 
